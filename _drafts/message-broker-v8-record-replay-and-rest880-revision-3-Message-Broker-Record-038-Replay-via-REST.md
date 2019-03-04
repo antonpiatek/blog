@@ -1,0 +1,97 @@
+---
+id: 883
+title: 'Message Broker, Record &#038; Replay via REST'
+date: 2011-11-28T16:04:30+00:00
+author: Anton Piatek
+layout: revision
+guid: http://www.strangeparty.com/2011/11/28/880-revision-3/
+permalink: /2011/11/28/880-revision-3/
+---
+IBM Websphere Message Broker introduced Record and Replay as part of its version 8 release. I thought I would just write a brief quickstart guide to getting running with record and replay, and in particular with working with the new REST interface which comes with it.
+
+### Setting up Recording
+
+From your WMB install dir, run the db2 schema file to create the sample database for Record and Replay. Edit the file if you want to use a database name other than MB8RECORD, a specific schema or increase the storage size per message above 5mb.
+
+<pre>db2 -tvf ddl/db2/DataCaptureSchema.sql</pre>
+
+Set the password for your database
+
+<pre>mqsisetdbparms MB8BROKER -n MBRECORD -u username -p password</pre>
+
+Set the DataCaptureStore configurable service to set where to record to and which EG to do the recording
+
+<pre>mqsicreateconfigurableservice MB8BROKER -c DataCaptureStore -o MyCaptureStore -n "dataSourceName,egForRecord" -v "MBRECORD,default"</pre>
+
+Define where to record messages from. Use a wildcard to set all configurable services. Note that double quotes (&#8220;&#8221;) are required on unix, windows will want single quotes (&#8221;)
+
+<pre>mqsicreateconfigurableservice MB8BROKER -c DataCaptureSource -o MyCaptureSource -n "dataCaptureStore,topic" -v "MyCaptureStore,$SYS/Broker/MB8BROKER/Monitoring/#"</pre>
+
+Alternatively you can list the flows explicitly with topics like &#8220;_$SYS/Broker/MB8BROKER/Monitoring/ExecutionGroupName/FlowName_&#8221;
+
+While we are configuring everything, set a replay destination too. Set EG default to replay to queue &#8220;REPLAY&#8221; on queue manager MB8QMGR
+
+<pre>mqsicreateconfigurableservice MB8BROKER -c DataDestination -o MyDestination -n "egForReplay,endpoint,endpointType" -v "default,wmq:/msg/queue/REPLAY@MB8QMGR,WMQDestination"</pre>
+
+### Setting up Monitoring
+
+Now your broker is configured for recording, you will need to setup something to be recorded. Event Monitoring is used to emit data to record, so either follow the monitoring sample, read the docs on [Event Monitoring](http://publib.boulder.ibm.com/infocenter/wmbhelp/v7r0m0/topic/com.ibm.etools.mft.doc/ac60386_.htm) or edit the sample monitoring profile in _sample/RecordReplay/basicMonitoringProfile.xml_ to replace NODENAME with the name of your flow&#8217;s input node, then run the following commands to enable monitoring. This assumes your flow is called MyFlow and is running in EG default.
+
+<pre>mqsicreateconfigurableservice MB8BROKER -c MonitoringProfiles -o MyProfile -n profileProperties -p sample/RecordReplay/basicMonitoringProfile.xml
+mqsichangeflowmonitoring MB8BROKER -e default -f MyFlow -m  MyProfile
+mqsichangeflowmonitoring MB8BROKER -e default -f MyFlow -c active</pre>
+
+<pre>You can check that monitoring is correctly active with the command</pre>
+
+<pre>mqsireportflowmonitoring MB8BROKER -n -e default -f MyFlow</pre>
+
+You should see output like
+
+<pre>BIP8911I: Monitoring settings for flow 'MyFlow' in execution group 'default' -  State?: active, ProfileName: 'MyProfile'.
+BIP8912I: Event: 'IN.transaction.End',  Event name: 'IN.transaction.End',  Configured?: yes,  State?: enabled.
+BIP8912I: Event: 'IN.transaction.Rollback',  Event name: 'IN.transaction.Rollback',  Configured?: yes,  State?: enabled.</pre>
+
+You can now put messages through your flow and they will be recorded.
+
+### Enabling the REST interface and Web UI
+
+To enable the REST interface and Web UI you need to enable the HTTP server and set the port for it to run on. You will also need to set which ExecutionGroup will process requests to view recorded messages.
+
+<pre>mqsichangeproperties MB8BROKER -b webadmin -o server -n enabled -v true
+mqsichangeproperties MB8BROKER -b webadmin -o HTTPConnector -n port -v 8080
+mqsichangeproperties MB8BROKER -o DefaultCaptureStore -c MyCaptureStore -n egForView -v default</pre>
+
+You can also configure HTTPS if you prefer, details are in the product documentation.
+
+### Viewing recorded data
+
+You can of course view all the data via a web browser by pointing to the url _http://localhost:8080_ but you can also do it all via the command line.
+
+The following will get back the most recent 30 recorded pieces of data from your captureStore MyCaptureStore.
+
+<pre>$curl "http://localhost:7101/datacapturestore/MyCaptureStore/"</pre>
+
+This returns quite a large XML list of messages, so let&#8217;s try getting just one message.
+
+<pre>$curl "http://localhost:7101/datacapturestore/DefaultCaptureStore/?numberOfEntriesPerPage=1"
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;DataCaptureStore TotalResults="92" NumberOfEntriesPerPage="1" PageNumber="1"&gt;
+&lt;DataCaptureEntry wmb_msgkey="414d51204d4238514d475220202020203d1bc14e4d290020:414d51204d4238514d475220202020203d1bc14e1b3a0020"
+  has_bitstream="Y" has_exception="N" has_userdata="N" event_type="IN.transaction.End"
+  event_name="IN.transaction.End" event_srcaddr="IN.transaction.End" broker_name="MB8BROKER"
+  broker_uuid="d405fc08-0ec6-11e1-9d9b-7f0000010000" exgrp_name="default" exgrp_uuid="7fd654a2-3301-0000-0080-d4d9103989f9"
+  msgflow_name="MyFlow" msgflow_uuid="0a4555a2-3301-0000-0080-e2ed33c9dfcd" appl_name="" appl_uuid="" library_name=""
+  library_uuid="" node_name="IN" node_type="ComIbmMQInputNode" detail="IN" terminal_name="" key_fld_1_nm=""
+  key_fld_2_nm="" key_fld_3_nm="" key_fld_4_nm="" key_fld_5_nm="" event_timestamp="2011-11-16 11:25:00.647"
+  local_transaction_id="9f228bde-1045-11e1-9fac-7f0000010000-1" parent_transaction_id="" global_transaction_id=""/&gt;
+&lt;/DataCaptureStore&gt;</pre>
+
+You can of course filter on any of the data fields above as follows.
+
+<pre>$curl "http://localhost:7101/datacapturestore/DefaultCaptureStore/?numberOfEntriesPerPage=1&has_bitstream=Y"</pre>
+
+Filtering is possible on all the above columns, with the addition that you can also set a timestamp range with
+
+The REST Api has documentation at _docs/REST/index.html_ which covers all these options.
+
+&nbsp;

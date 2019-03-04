@@ -1,0 +1,31 @@
+---
+id: 988
+title: building a pc case from wood
+date: 2013-02-23T17:29:31+00:00
+author: Anton Piatek
+layout: revision
+guid: http://www.strangeparty.com/2013/02/23/985-revision-2/
+permalink: /2013/02/23/985-revision-2/
+---
+[<img class="aligncenter size-medium wp-image-962" alt="20121028_134935" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121028_134935-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121028_134935.jpg)  
+[<img class="aligncenter size-medium wp-image-963" alt="20121103_130544" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_130544-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_130544.jpg)  
+[<img class="aligncenter size-medium wp-image-964" alt="20121103_130557" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_130557-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_130557.jpg)  
+[<img class="aligncenter size-medium wp-image-965" alt="20121103_140112" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_140112-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_140112.jpg)  
+[<img class="aligncenter size-medium wp-image-966" alt="20121103_140200" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_140200-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_140200.jpg)  
+[<img class="aligncenter size-medium wp-image-967" alt="20121103_175352" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_175352-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121103_175352.jpg)  
+[<img class="aligncenter size-medium wp-image-968" alt="20121110_125543" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_125543-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_125543.jpg)  
+[<img class="aligncenter size-medium wp-image-969" alt="20121110_133416" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_133416-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_133416.jpg)  
+[<img class="aligncenter size-medium wp-image-970" alt="20121110_133418" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_133418-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121110_133418.jpg)  
+[<img class="aligncenter size-medium wp-image-971" alt="20121125_145426" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145426-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145426.jpg)  
+[<img class="aligncenter size-medium wp-image-972" alt="20121125_145439" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145439-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145439.jpg)  
+[<img class="aligncenter size-medium wp-image-973" alt="20121125_145514" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145514-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145514.jpg)  
+[<img class="aligncenter size-medium wp-image-974" alt="20121125_145523" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145523-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145523.jpg)  
+[<img class="aligncenter size-medium wp-image-975" alt="20121125_145527" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145527-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145527.jpg)  
+[<img class="aligncenter size-medium wp-image-976" alt="20121125_145535" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145535-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145535.jpg)  
+[<img class="aligncenter size-medium wp-image-977" alt="20121125_145556" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145556-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145556.jpg)  
+[<img class="aligncenter size-medium wp-image-978" alt="20121125_145617" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145617-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121125_145617.jpg)  
+[<img class="aligncenter size-medium wp-image-979" alt="20121127_183634" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183634-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183634.jpg)  
+[<img class="aligncenter size-medium wp-image-980" alt="20121127_183658" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183658-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183658.jpg)  
+[<img class="aligncenter size-medium wp-image-981" alt="20121127_183704" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183704-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121127_183704.jpg)  
+[<img class="aligncenter size-medium wp-image-982" alt="20121130_161158" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121130_161158-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121130_161158.jpg)  
+[<img class="aligncenter size-medium wp-image-983" alt="20121130_161324" src="http://www.strangeparty.com/wordpress/uploads/2013/02/20121130_161324-300x225.jpg" width="300" height="225" />](http://www.strangeparty.com/wordpress/uploads/2013/02/20121130_161324.jpg)

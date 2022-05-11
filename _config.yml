@@ -10,22 +10,22 @@
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 twitter_username: antonpiatek
 github_username:  antonpiatek
 
 plugins:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
-- jekyll-coffeescript
-- jekyll-default-layout
-- jekyll-gist
-- jekyll-optional-front-matter
-- jekyll-paginate
-- jekyll-readme-index
-- jekyll-titles-from-headings
-- jekyll-relative-links
+ - jekyll-github-metadata
+ - jekyll-mentions
+ - jekyll-redirect-from
+ - jekyll-sitemap
+ - jemoji
+ - jekyll-coffeescript
+ - jekyll-default-layout
+ - jekyll-gist
+ - jekyll-optional-front-matter
+ - jekyll-paginate
+ - jekyll-readme-index
+ - jekyll-titles-from-headings
+ - jekyll-relative-links
 

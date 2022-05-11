@@ -14,7 +14,7 @@ theme: jekyll-theme-hacker
 twitter_username: antonpiatek
 github_username:  antonpiatek
 
-plgins:
+plugins:
 - jekyll-github-metadata
 - jekyll-mentions
 - jekyll-redirect-from

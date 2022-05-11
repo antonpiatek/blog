@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+header {
+  padding-left: 200px;
+}
+
+#main_content {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 200px;
+}

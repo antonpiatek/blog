@@ -10,7 +10,8 @@
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
 
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
 twitter_username: antonpiatek
 github_username:  antonpiatek
 
@@ -28,4 +29,5 @@ plugins:
  - jekyll-readme-index
  - jekyll-titles-from-headings
  - jekyll-relative-links
+ - jekyll-remote-theme
 

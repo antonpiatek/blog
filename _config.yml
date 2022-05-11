@@ -11,6 +11,9 @@
 #  syntax_highlighter: rouge
 
 theme: jekyll-theme-hacker
+twitter_username: antonpiatek
+github_username:  antonpiatek
+
 plgins:
 - jekyll-github-metadata
 - jekyll-mentions

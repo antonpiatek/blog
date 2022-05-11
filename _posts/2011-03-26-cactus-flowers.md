@@ -1,0 +1,26 @@
+---
+id: 821
+title: Cactus flowers
+date: 2011-03-26T16:22:34+00:00
+author: Anton Piatek
+layout: post
+guid: http://www.strangeparty.com/?p=821
+permalink: /2011/03/26/cactus-flowers/
+aktt_notify_twitter:
+  - 'yes'
+aktt_tweeted:
+  - "1"
+categories:
+  - Photography
+tags:
+  - cactus
+  - flowers
+  - macro
+  - Photography
+  - yellow
+---
+I finally got round to posting some photos I took last year of the cactus I have flowering. It has only done it twice in the ~6 years I have had it, and this time it had quite a few flowers. The macro photos of it came out the best, helped by sheets of A4 paper as light reflectors (and in some photos backgrounds). I cannot remember if I used a wireless flash or not, but I suspect I probably did.
+
+[<img src="http://farm6.static.flickr.com/5063/5560969891_40b040ed11.jpg" border="0" alt="IMG_11807" width="500" height="333" />](http://farm6.static.flickr.com/5063/5560969891_40b040ed11_b.jpg "IMG_11807"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5222/5561545168_0b6f58bcab.jpg" border="0" alt="IMG_11809" width="500" height="333" />](http://farm6.static.flickr.com/5222/5561545168_0b6f58bcab_b.jpg "IMG_11809"){.tt-flickr.tt-flickr.tt-flickr-Medium}  
+[<img src="http://farm6.static.flickr.com/5300/5561544504_fb50a6cc99.jpg" border="0" alt="IMG_11806" width="500" height="333" />](http://farm6.static.flickr.com/5300/5561544504_fb50a6cc99_b.jpg "IMG_11806"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5267/5560969505_94c8bb223d.jpg" border="0" alt="IMG_11804" width="500" height="333" />](http://farm6.static.flickr.com/5267/5560969505_94c8bb223d_b.jpg "IMG_11804"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5027/5561544120_fa6e7ec70f.jpg" border="0" alt="IMG_11803" width="500" height="333" />](http://farm6.static.flickr.com/5027/5561544120_fa6e7ec70f_b.jpg "IMG_11803"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5254/5560969125_692eaafcd7.jpg" border="0" alt="IMG_11800" width="500" height="333" />](http://farm6.static.flickr.com/5254/5560969125_692eaafcd7_b.jpg "IMG_11800"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5310/5560968961_da41804139.jpg" border="0" alt="IMG_11788" width="333" height="500" />](http://farm6.static.flickr.com/5310/5560968961_da41804139_b.jpg "IMG_11788"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5251/5561543578_9f17816531.jpg" border="0" alt="IMG_11787" width="333" height="500" />  
+](http://farm6.static.flickr.com/5251/5561543578_9f17816531_b.jpg "IMG_11787"){.tt-flickr.tt-flickr.tt-flickr-Medium} [<img src="http://farm6.static.flickr.com/5252/5560970193_fe16b8a228.jpg" border="0" alt="IMG_11808" width="333" height="500" />](http://farm6.static.flickr.com/5252/5560970193_fe16b8a228_b.jpg "IMG_11808") [<img src="http://farm6.static.flickr.com/5144/5560970621_e875335232.jpg" border="0" alt="IMG_11810" width="333" height="500" />](http://farm6.static.flickr.com/5144/5560970621_e875335232_b.jpg "IMG_11810")

@@ -10,7 +10,7 @@
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
 
-theme: jekyll-theme-midnight
+theme: jekyll-theme-hacker
 #remote_theme: pages-themes/midnight@v0.2.0
 twitter_username: antonpiatek
 github_username:  antonpiatek

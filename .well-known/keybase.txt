@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/antonpiatek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://antonpiatek.dev
+  * I am antonpiatek (https://keybase.io/antonpiatek) on keybase.
+  * I have a public key ASCFXr1i7v8gEZAS5wo9MqjnxcMzDF794CRi6oVD7n0tZAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b13028b0a43174d54397c38239c577fe3f78a148013440dfdc31a4418fc185510a",
+      "host": "keybase.io",
+      "kid": "0120855ebd62eeff20119012e70a3d32a8e7c5c3330c5efde02462ea8543ee7d2d640a",
+      "uid": "0bbde3e7bdf3d7c183b4b7a3d2c97e00",
+      "username": "antonpiatek"
+    },
+    "merkle_root": {
+      "ctime": 1652453225,
+      "hash": "e2d966d8ea71f4a4f5b93d52c603c5e88660c7f7c6ca28c5ad546f1e35c6bcb431bbf1f299c712b006a0659c3185b6608c615672400917023fce1b73f9cc9974",
+      "hash_meta": "b84c9088ea1eb9af058d9c4846cf8ea5f3ffb8f5f200674fd2c050f83fb72c8c",
+      "seqno": 22480910
+    },
+    "service": {
+      "entropy": "GpP0RNrEaFsNKr3XCbIN9lHx",
+      "hostname": "antonpiatek.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1652453254,
+  "expire_in": 504576000,
+  "prev": "bfa766926567d6b5ec258860b83cb0ae2dcbfcdee43db9f97ba0c67f8dd67878",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghV69Yu7/IBGQEucKPTKo58XDMwxe/eAkYuqFQ+59LWQKp3BheWxvYWTESpcCCsQgv6dmkmVn1rXsJYhguDywri3L/N7kPbn5e6DGf43WeHjEIFXeQSOf6nt5cUVh4aMM/70DjsiFnNMktJ9AJ43tqJL8AgHCo3NpZ8RA+ZX7VhsO6jQ5NCEse0RUL9hYhNvLYSBZPiz2X8dRkO8FPFJtV+Eh6BuybtBWg7fXVS1IrxUHNcGyJP/rmRmgBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGQ25tw+1hcHXrNIUTP90S+oYeCvXE9SLoTsTGvCx88fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antonpiatek
+
+==================================================================
+

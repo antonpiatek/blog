@@ -15,6 +15,8 @@ remote_theme: pages-themes/hacker@v0.2.0
 twitter_username: antonpiatek
 github_username:  antonpiatek
 
+include: [".well-known"]
+
 plugins:
  - jekyll-github-metadata
  - jekyll-mentions

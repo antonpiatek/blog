@@ -1,0 +1,34 @@
+<script>
+    // Inspired by https://www.codemzy.com/blog/dark-mode-to-static-site
+    function toggleTheme() {
+        debugger;
+    }
+        //todo use browser preference only until user clicks button
+    function setDarkMode(dark, save=true) {
+        if (dark) {
+            save && dark ? localStorage.setItem('theme', 'dark') : localStorage.removeItem('theme');
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+        } else if (!dark) {
+            save && !dark ? localStorage.setItem('theme', 'light') : localStorage.removeItem('theme');
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
+
+        }else{
+
+        }
+    };
+    function defaultTheme(){
+        const saved = localStorage.getItem('theme');
+        if(saved === 'dark'){
+            setDarkMode(true)
+        }else if(saved === 'light'){
+            setDarkMode(false)
+        }else{
+            let defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setDarkMode(defaultDark, false)
+        }
+        
+    }
+    defaultTheme();
+</script>

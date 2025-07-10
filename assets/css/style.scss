@@ -3,6 +3,41 @@
 
 @import "{{ site.theme }}";
 
+
+// Attempt at a light theme
+$light-fg:#002501;
+html.light{
+  body{
+    background: #f0f0f0 none 0 0;
+    color:$light-fg;
+  }
+  h1, h2, h3, h4, h5, h6, p{
+    color:$light-fg;  
+  }
+  #main_content a{
+    color:$light-fg;
+  }
+  body > a{
+    color: $light-fg;
+  }
+  #button-light-mode{
+    display:none;
+  }
+  #button-dark-mode{
+    display:block;
+  }
+}
+
+
+html.dark {
+  #button-dark-mode{
+    display:none;
+  }
+  #button-light-mode{
+    display:block;
+  }
+}   
+
 #main_content {
   width: 90%;
   max-width: 1000px;
@@ -17,13 +52,14 @@ header {
 #sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 175px;
   background-color: #111;
   position: fixed;
   height: 100%;
   overflow: auto;
   left: 0;
 }
+
 #sidebar img {
  vertical-align: middle;
  padding-right: 5px;
@@ -43,8 +79,11 @@ header {
   //color: white;
 }
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 800px) {
+  .container{
+    width: 100%;
+  }
   #sidebar {
     width: 100%;
     height: auto;
@@ -58,17 +97,12 @@ header {
   header{ padding-left: 0; }
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  #sidebar a {
-    text-align: center;
-    float: none;
-    padding: 5px;
+
+html.light{
+  article{
+    border-bottom: 1px dashed $light-fg;
   }
 }
-
-
-
 article {
     border-bottom: 1px dashed #b5e853;
     padding-top: 20px;
@@ -77,4 +111,12 @@ article {
 
 pre {
     overflow: scroll;
+}
+html body button.theme-button{
+  padding: 16px;
+  background:none;
+  border:none;
+  img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
 }

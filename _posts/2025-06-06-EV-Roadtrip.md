@@ -2,6 +2,7 @@
 layout: post
 title:  "EV Road Trip"
 date:   2025-06-06 15:02:41 +0000
+categories: blog
 ---
 I've been driving for nearly 25 years, and while I've owned an EV as a two-car household for about 7 years, we moved last year to both cars being EVs. We've not had the need to use public charging other than as a novelty until now. I felt like sharing some of the experience, and some stats, as there's so much hate against electric vehicles, but honestly found the trip absolutely fine in an electric vehicle.
 
